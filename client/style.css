@@ -1,0 +1,124 @@
+/* ======== General Page Styling ======== */
+body {
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* ======== Header ======== */
+h2 {
+  font-weight: 700;
+  color: #2563eb;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== Container ======== */
+.container {
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== Form ======== */
+form.card {
+  border: none;
+  background: #f9fafb;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+form.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-control {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+  outline: none;
+}
+
+/* ======== Button ======== */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+/* ======== Table ======== */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+  text-align: center;
+}
+
+.table th {
+  background-color: #2563eb;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.table td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f3f4f6;
+}
+
+tr:hover {
+  background-color: #e0f2fe;
+  transition: 0.2s;
+}
+
+/* ======== Section Titles ======== */
+h4 {
+  color: #374151;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* ======== Responsive ======== */
+@media (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}
