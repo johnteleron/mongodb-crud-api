@@ -2,10 +2,9 @@
   "name": "nosql-bootstrap-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "nosql-bootstrap-app/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node nosql-bootstrap-app/server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,6 @@
     "express": "^5.1.0",
     "mongoose": "^8.19.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnteleron/mongodb-crud-api.git"
